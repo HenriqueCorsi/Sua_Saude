@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sua Saúde</title>
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header>
+        Sua Saúde
+    </header>
+    
+    <main>
+        <section id="setor1">
+            <!-- O que é o IMC -->
+            <h1>
+                O que é IMC ?
+            </h1>
+            <p>
+                O IMC (Índice de Massa Corporal) é um parâmetro utilizado para avaliar se o peso está dentro do valor ideal para a altura. 
+                Isso significa que, a partir do resultado do IMC é possível saber se a pessoa está acima ou abaixo do peso recomendado e também diagnosticar problemas de saúde como obesidade ou desnutrição. 
+            </p>
+        </section>
+
+        <section id="setor2">
+            <h1>
+                Calculadora de IMC 
+            </h1>
+            <p>
+                Coloque os seus dados na calculadora e calcule o seu IMC:
+            </p>
+            <div id="calculo-imc">
+                <div id="">
+                    <strong>Idade <br></strong>
+                    <input type="number" name="idade" id="idade"> anos <br><br>
+                    <strong>Altura <br></strong>
+                    <input type="number" name="altura" id="altura"> cm <br><br>
+                    <strong>Peso <br></strong>
+                    <input type="number" name="peso" id="peso"> kg <br><br>
+                    <input id="botao-calcular" type="button" value="Calcular" onclick="calculadorImc()">
+                    <p id="resultado"></p>
+                    
+                    
+
+                </div>
+            </div>
+
+        </section>
+ 
+        <section id="setor3">
+            <!--Como interpretar o resultado de IMC--> 
+            <h1>Como interpretar o resultado de IMC ?</h1>
+            <div id="classificação">
+                <h2>Classificação</h2>
+                <p id="indiceImc">
+                    - Menor que 18,5% --> <strong>Magreza</strong> <br><br>
+                    - Entre 18,5% a 24,9% --> <strong>Normal</strong> <br><br>
+                    - Entre 25% a 29,9% --> <strong>Sobrepeso</strong> <br><br>
+                    - Entre 30% a 34,9% --> <strong>Obesidade grau I</strong> <br><br>
+                    - Entre 35% a 39,9% --> <strong>Obesidade grau II</strong><br><br>
+                    - Maior que 40% --> <strong>Obesidade grau III</strong>
+                </p>
+
+            </div>
+            
+            
+        </section>
+
+        <section id="setor4">
+            <h1>
+                Por que é importante saber o IMC?
+            </h1>
+            <p>
+                Saber o IMC é importante para verificar se o peso está de acordo com a altura da pessoa, além de ser importante para saber se existe risco de desenvolver alguma doença. No caso das crianças, o IMC é importante para saber se o desenvolvimento está de acordo com o esperado. <br><br>
+                Além disso, sabendo o IMC, é possível também verificar qual o peso ideal e, assim, saber se a pessoa está acima ou abaixo do peso recomendado para a sua altura.
+            </p>
+        </section>
+
+        <section id="setor5">
+            <h1>
+                O que fazer para melhorar o IMC?
+            </h1>
+            <p>
+                Para melhorar o IMC, é importante verificar se está acima ou abaixo do peso considerado normal. Quando o IMC está na faixa de magreza, é importante consultar um nutricionista que fará uma avaliação completa, indicando um plano alimentar personalizado que priorize o ganho de peso de forma saudável. <br><br>
+                Por outro lado, quando o IMC está na faixa do sobrepeso ou da obesidade, o nutricionista pode recomendar uma alimentação com redução de calorias. Além da dieta, normalmente também se recomenda a prática de atividade física regular, que ajudará a acelerar o metabolismo e facilitar a perda de peso, o que influencia diretamente no IMC.
+
+
+            </p>
+        </section>
+
+        <footer>
+            <a href="https://www.linkedin.com/in/paulo-henrique-corsi-dos-santos-2b7427239/" target="_blank">&copy; HenriqueCorsi</a>
+        </footer>
+    </main>
+    
+    <!-- Parte do JavaScript-->
+    <script src="javascript/script.js"></script>
+</body>
+</html>
+
