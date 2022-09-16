@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Bigger';
+    src: url('fontes/Letticia.ttf') format('truetype');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    background-color: #e6fafa;
+    width: 1000px;
+    height: 2140px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+header{
+    font-family: Bigger;
+    background-color: #4DBFBF;
+    padding: 5px;
+    font-size: 45px;
+    text-align: center;
+    color: rgb(36, 32, 32);
+}
+
+h1{
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+p{
+    background-color: white;
+    width: 650px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+section#setor2{
+    background-color: white;
+    width: 680px;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+}
+
+div#calculo-imc{
+    background-color: rgb(209, 230, 223);
+    width: 350px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+div#classificação{
+    background-color: rgb(247, 247, 247);
+    width: 650px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+h2{
+    font-size: 20px;
+    text-align: center;
+}
+
+p#indiceImc{
+    background-color:  rgb(209, 230, 223);
+    text-align: justify;
+    width: 400px;
+    
+}
+
+input{
+    margin-top: 7px;
+    margin-left: 20px;
+    font-size: 15px;
+    padding: 2px;
+    width: 60px;
+    height: 20px;
+}
+
+input#botao-calcular{
+    padding: 10px;
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+}
+
+p#resultado{
+    font-size: 20px;
+    background-color: white;
+    width: 250px;
+    height: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+footer{
+    text-align: center;
+    padding: 70px;
+}
+
+
