@@ -7,3 +7,4 @@ Neste meu primeiro projeto em front-end, utilizando JavaScript, HTML5 e CSS3. El
  - CSS3
  - JavaScript
  
+<a href="https://henriquecorsi.github.io/projeto-imc-frontend/" target="_blank">Acesse o site</a>
